@@ -1,0 +1,185 @@
+2017-01-20 01:12:04,699 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Created MRAppMaster for application appattempt_1484845506952_0006_000001
+2017-01-20 01:12:04,982 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-01-20 01:12:05,021 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Executing with tokens:
+2017-01-20 01:12:05,021 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: 6 cluster_timestamp: 1484845506952 } attemptId: 1 } keyId: 551913583)
+2017-01-20 01:12:05,237 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Using mapred newApiCommitter.
+2017-01-20 01:12:05,239 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter set in config null
+2017-01-20 01:12:05,317 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2017-01-20 01:12:05,846 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2017-01-20 01:12:06,015 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler
+2017-01-20 01:12:06,016 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobEventDispatcher
+2017-01-20 01:12:06,017 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskEventDispatcher
+2017-01-20 01:12:06,018 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskAttemptEventDispatcher
+2017-01-20 01:12:06,019 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventType for class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler
+2017-01-20 01:12:06,025 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.speculate.Speculator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$SpeculatorEventDispatcher
+2017-01-20 01:12:06,026 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.rm.ContainerAllocator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerAllocatorRouter
+2017-01-20 01:12:06,027 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerLauncherRouter
+2017-01-20 01:12:06,066 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://localhost:9000]
+2017-01-20 01:12:06,104 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://localhost:9000]
+2017-01-20 01:12:06,134 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://localhost:9000]
+2017-01-20 01:12:06,145 INFO [main] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Emitting job history data to the timeline server is not enabled
+2017-01-20 01:12:06,186 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobFinishEvent$Type for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobFinishEventHandler
+2017-01-20 01:12:06,259 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2017-01-20 01:12:06,316 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2017-01-20 01:12:06,317 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MRAppMaster metrics system started
+2017-01-20 01:12:06,325 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Adding job token for job_1484845506952_0006 to jobTokenSecretManager
+2017-01-20 01:12:06,429 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Uberizing job job_1484845506952_0006: 1m+1r tasks (1366 input bytes) will run sequentially on single node.
+2017-01-20 01:12:06,442 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Input size for job job_1484845506952_0006 = 1366. Number of splits = 1
+2017-01-20 01:12:06,442 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Number of reduces for job job_1484845506952_0006 = 1
+2017-01-20 01:12:06,442 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1484845506952_0006Job Transitioned from NEW to INITED
+2017-01-20 01:12:06,443 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: MRAppMaster uberizing job job_1484845506952_0006 in local container ("uber-AM") on node 192.168.0.100:61207.
+2017-01-20 01:12:06,464 INFO [main] org.apache.hadoop.ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+2017-01-20 01:12:06,477 INFO [Socket Reader #1 for port 64902] org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 64902
+2017-01-20 01:12:06,498 INFO [main] org.apache.hadoop.yarn.factories.impl.pb.RpcServerFactoryPBImpl: Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server
+2017-01-20 01:12:06,498 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-20 01:12:06,498 INFO [IPC Server listener on 64902] org.apache.hadoop.ipc.Server: IPC Server listener on 64902: starting
+2017-01-20 01:12:06,499 INFO [main] org.apache.hadoop.mapreduce.v2.app.client.MRClientService: Instantiated MRClientService at /192.168.0.100:64902
+2017-01-20 01:12:06,599 INFO [main] org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2017-01-20 01:12:06,621 INFO [main] org.apache.hadoop.security.authentication.server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+2017-01-20 01:12:06,627 INFO [main] org.apache.hadoop.http.HttpRequestLog: Http request log for http.requests.mapreduce is not defined
+2017-01-20 01:12:06,636 INFO [main] org.apache.hadoop.http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+2017-01-20 01:12:06,644 INFO [main] org.apache.hadoop.http.HttpServer2: Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce
+2017-01-20 01:12:06,644 INFO [main] org.apache.hadoop.http.HttpServer2: Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static
+2017-01-20 01:12:06,647 INFO [main] org.apache.hadoop.http.HttpServer2: adding path spec: /mapreduce/*
+2017-01-20 01:12:06,647 INFO [main] org.apache.hadoop.http.HttpServer2: adding path spec: /ws/*
+2017-01-20 01:12:07,051 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Registered webapp guice modules
+2017-01-20 01:12:07,054 INFO [main] org.apache.hadoop.http.HttpServer2: Jetty bound to port 64910
+2017-01-20 01:12:07,054 INFO [main] org.mortbay.log: jetty-6.1.26
+2017-01-20 01:12:07,094 INFO [main] org.mortbay.log: Extract jar:file:/Users/lybuestc/soft/hadoop-2.7.3/share/hadoop/yarn/hadoop-yarn-common-2.7.3.jar!/webapps/mapreduce to /Users/lybuestc/soft/hadoop-2.7.3/tmpdata/hadoop-lybuestc/nm-local-dir/usercache/lybuestc/appcache/application_1484845506952_0006/container_1484845506952_0006_01_000001/tmp/Jetty_0_0_0_0_64910_mapreduce____.i36h7l/webapp
+2017-01-20 01:12:08,236 INFO [main] org.mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:64910
+2017-01-20 01:12:08,236 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Web app mapreduce started at 64910
+2017-01-20 01:12:08,241 INFO [main] org.apache.hadoop.ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+2017-01-20 01:12:08,242 INFO [Socket Reader #1 for port 64921] org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 64921
+2017-01-20 01:12:08,245 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2017-01-20 01:12:08,245 INFO [IPC Server listener on 64921] org.apache.hadoop.ipc.Server: IPC Server listener on 64921: starting
+2017-01-20 01:12:08,300 INFO [main] org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8030
+2017-01-20 01:12:08,374 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMCommunicator: maxContainerCapability: <memory:8192, vCores:32>
+2017-01-20 01:12:08,374 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMCommunicator: queue: default
+2017-01-20 01:12:08,413 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1484845506952_0006Job Transitioned from INITED to SETUP
+2017-01-20 01:12:08,415 INFO [CommitterEvent Processor #0] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Processing the event EventType: JOB_SETUP
+2017-01-20 01:12:08,426 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1484845506952_0006Job Transitioned from SETUP to RUNNING
+2017-01-20 01:12:08,463 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved 192.168.0.100 to /default-rack
+2017-01-20 01:12:08,468 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1484845506952_0006_m_000000 Task Transitioned from NEW to SCHEDULED
+2017-01-20 01:12:08,469 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1484845506952_0006_r_000000 Task Transitioned from NEW to SCHEDULED
+2017-01-20 01:12:08,471 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_m_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2017-01-20 01:12:08,471 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_r_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2017-01-20 01:12:08,472 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.local.LocalContainerAllocator: Processing the event EventType: CONTAINER_REQ
+2017-01-20 01:12:08,489 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.local.LocalContainerAllocator: Processing the event EventType: CONTAINER_REQ
+2017-01-20 01:12:08,539 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Event Writer setup for JobId: job_1484845506952_0006, File: hdfs://localhost:9000/tmp/hadoop-yarn/staging/lybuestc/.staging/job_1484845506952_0006/job_1484845506952_0006_1.jhist
+2017-01-20 01:12:08,585 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved 192.168.0.100 to /default-rack
+2017-01-20 01:12:08,627 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: The job-jar file on the remote FS is hdfs://localhost:9000/tmp/hadoop-yarn/staging/lybuestc/.staging/job_1484845506952_0006/job.jar
+2017-01-20 01:12:08,630 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: The job-conf file on the remote FS is /tmp/hadoop-yarn/staging/lybuestc/.staging/job_1484845506952_0006/job.xml
+2017-01-20 01:12:08,630 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Adding #0 tokens and #1 secret keys for NM use for launching container
+2017-01-20 01:12:08,630 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Size of containertokens_dob is 1
+2017-01-20 01:12:08,630 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Putting shuffle token in serviceData
+2017-01-20 01:12:08,679 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_m_000000_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+2017-01-20 01:12:08,698 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved 192.168.0.100 to /default-rack
+2017-01-20 01:12:08,699 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_r_000000_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+2017-01-20 01:12:08,700 INFO [uber-EventHandler] org.apache.hadoop.mapred.LocalContainerLauncher: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1484845506952_0006_01_000001 taskAttempt attempt_1484845506952_0006_m_000000_0
+2017-01-20 01:12:08,707 INFO [uber-EventHandler] org.apache.hadoop.mapred.LocalContainerLauncher: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1484845506952_0006_01_000001 taskAttempt attempt_1484845506952_0006_r_000000_0
+2017-01-20 01:12:08,711 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.LocalContainerLauncher: mapreduce.cluster.local.dir for uber task: /Users/lybuestc/soft/hadoop-2.7.3/tmpdata/hadoop-lybuestc/nm-local-dir/usercache/lybuestc/appcache/application_1484845506952_0006
+2017-01-20 01:12:08,717 INFO [uber-SubtaskRunner] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2017-01-20 01:12:08,729 INFO [uber-SubtaskRunner] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2017-01-20 01:12:08,730 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : null
+2017-01-20 01:12:08,733 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: [attempt_1484845506952_0006_m_000000_0] using containerId: [container_1484845506952_0006_01_000001 on NM: [192.168.0.100:61207]
+2017-01-20 01:12:08,740 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_m_000000_0 TaskAttempt Transitioned from ASSIGNED to RUNNING
+2017-01-20 01:12:08,742 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1484845506952_0006_m_000000 Task Transitioned from SCHEDULED to RUNNING
+2017-01-20 01:12:08,749 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://localhost:9000/user/lybuestc/input/README.txt:0+1366
+2017-01-20 01:12:08,795 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2017-01-20 01:12:08,796 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2017-01-20 01:12:08,796 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2017-01-20 01:12:08,796 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2017-01-20 01:12:08,796 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2017-01-20 01:12:08,803 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2017-01-20 01:12:08,835 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1484845506952_0006_m_000000_0 is : 0.0
+2017-01-20 01:12:08,839 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2017-01-20 01:12:08,839 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: Spilling map output
+2017-01-20 01:12:08,839 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 2055; bufvoid = 104857600
+2017-01-20 01:12:08,839 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26213684(104854736); length = 713/6553600
+2017-01-20 01:12:08,866 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2017-01-20 01:12:08,870 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Task: Task:attempt_1484845506952_0006_m_000000_0 is done. And is in the process of committing
+2017-01-20 01:12:08,878 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1484845506952_0006_m_000000_0 is : 1.0
+2017-01-20 01:12:08,881 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Done acknowledgement from attempt_1484845506952_0006_m_000000_0
+2017-01-20 01:12:08,881 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Task: Task 'attempt_1484845506952_0006_m_000000_0' done.
+2017-01-20 01:12:08,883 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_m_000000_0 TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP
+2017-01-20 01:12:08,883 INFO [uber-EventHandler] org.apache.hadoop.mapred.LocalContainerLauncher: Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1484845506952_0006_01_000001 taskAttempt attempt_1484845506952_0006_m_000000_0
+2017-01-20 01:12:08,883 INFO [uber-EventHandler] org.apache.hadoop.mapred.LocalContainerLauncher: canceling the task attempt attempt_1484845506952_0006_m_000000_0
+2017-01-20 01:12:08,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_m_000000_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED
+2017-01-20 01:12:08,885 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.LocalContainerLauncher: mapreduce.cluster.local.dir for uber task: /Users/lybuestc/soft/hadoop-2.7.3/tmpdata/hadoop-lybuestc/nm-local-dir/usercache/lybuestc/appcache/application_1484845506952_0006
+2017-01-20 01:12:08,886 INFO [uber-SubtaskRunner] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2017-01-20 01:12:08,887 INFO [uber-SubtaskRunner] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2017-01-20 01:12:08,887 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : null
+2017-01-20 01:12:08,890 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4de40f16
+2017-01-20 01:12:08,897 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: [attempt_1484845506952_0006_r_000000_0] using containerId: [container_1484845506952_0006_01_000001 on NM: [192.168.0.100:61207]
+2017-01-20 01:12:08,897 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_r_000000_0 TaskAttempt Transitioned from ASSIGNED to RUNNING
+2017-01-20 01:12:08,897 INFO [uber-SubtaskRunner] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2017-01-20 01:12:08,911 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: Task succeeded with attempt attempt_1484845506952_0006_m_000000_0
+2017-01-20 01:12:08,912 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1484845506952_0006_m_000000 Task Transitioned from RUNNING to SUCCEEDED
+2017-01-20 01:12:08,912 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1484845506952_0006_r_000000 Task Transitioned from SCHEDULED to RUNNING
+2017-01-20 01:12:08,913 INFO [uber-SubtaskRunner] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=668309888, maxSingleShuffleLimit=167077472, mergeThreshold=441084544, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2017-01-20 01:12:08,915 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Num completed Tasks: 1
+2017-01-20 01:12:08,916 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1484845506952_0006_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2017-01-20 01:12:08,916 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapred.TaskAttemptListenerImpl: MapCompletionEvents request from attempt_1484845506952_0006_r_000000_0. startIndex 0 maxEvents 10000
+2017-01-20 01:12:08,922 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1484845506952_0006_r_000000_0: Got 1 new map-outputs
+2017-01-20 01:12:08,963 INFO [localfetcher#1] org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_1484845506952_0006_m_000000_0 decomp: 1832 len: 1836 to MEMORY
+2017-01-20 01:12:08,966 INFO [localfetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 1832 bytes from map-output for attempt_1484845506952_0006_m_000000_0
+2017-01-20 01:12:08,967 INFO [localfetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 1832, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->1832
+2017-01-20 01:12:08,969 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2017-01-20 01:12:08,970 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1484845506952_0006_r_000000_0 is : 0.0
+2017-01-20 01:12:08,971 INFO [uber-SubtaskRunner] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2017-01-20 01:12:08,978 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2017-01-20 01:12:08,978 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 1823 bytes
+2017-01-20 01:12:08,980 INFO [uber-SubtaskRunner] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 1 segments, 1832 bytes to disk to satisfy reduce memory limit
+2017-01-20 01:12:08,981 INFO [uber-SubtaskRunner] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 1836 bytes from disk
+2017-01-20 01:12:08,982 INFO [uber-SubtaskRunner] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2017-01-20 01:12:08,982 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2017-01-20 01:12:08,982 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 1823 bytes
+2017-01-20 01:12:08,983 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1484845506952_0006_r_000000_0 is : 0.0
+2017-01-20 01:12:08,990 INFO [uber-SubtaskRunner] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2017-01-20 01:12:09,425 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Task: Task:attempt_1484845506952_0006_r_000000_0 is done. And is in the process of committing
+2017-01-20 01:12:09,426 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Commit-pending state update from attempt_1484845506952_0006_r_000000_0
+2017-01-20 01:12:09,426 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Commit go/no-go request from attempt_1484845506952_0006_r_000000_0
+2017-01-20 01:12:09,427 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_r_000000_0 TaskAttempt Transitioned from RUNNING to COMMIT_PENDING
+2017-01-20 01:12:09,427 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: attempt_1484845506952_0006_r_000000_0 given a go for committing the task output.
+2017-01-20 01:12:10,431 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Commit go/no-go request from attempt_1484845506952_0006_r_000000_0
+2017-01-20 01:12:10,431 INFO [uber-SubtaskRunner] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: Result of canCommit for attempt_1484845506952_0006_r_000000_0:true
+2017-01-20 01:12:10,432 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Task: Task attempt_1484845506952_0006_r_000000_0 is allowed to commit now
+2017-01-20 01:12:10,441 INFO [uber-SubtaskRunner] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1484845506952_0006_r_000000_0' to hdfs://localhost:9000/user/lybuestc/output11/_temporary/1/task_1484845506952_0006_r_000000
+2017-01-20 01:12:10,441 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1484845506952_0006_r_000000_0 is : 1.0
+2017-01-20 01:12:10,442 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Done acknowledgement from attempt_1484845506952_0006_r_000000_0
+2017-01-20 01:12:10,443 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.Task: Task 'attempt_1484845506952_0006_r_000000_0' done.
+2017-01-20 01:12:10,443 INFO [uber-SubtaskRunner] org.apache.hadoop.mapred.LocalContainerLauncher: removed attempt attempt_1484845506952_0006_r_000000_0 from the futures to keep track of
+2017-01-20 01:12:10,443 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_r_000000_0 TaskAttempt Transitioned from COMMIT_PENDING to SUCCESS_CONTAINER_CLEANUP
+2017-01-20 01:12:10,444 INFO [uber-EventHandler] org.apache.hadoop.mapred.LocalContainerLauncher: Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1484845506952_0006_01_000001 taskAttempt attempt_1484845506952_0006_r_000000_0
+2017-01-20 01:12:10,445 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1484845506952_0006_r_000000_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED
+2017-01-20 01:12:10,445 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: Task succeeded with attempt attempt_1484845506952_0006_r_000000_0
+2017-01-20 01:12:10,445 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1484845506952_0006_r_000000 Task Transitioned from RUNNING to SUCCEEDED
+2017-01-20 01:12:10,445 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Num completed Tasks: 2
+2017-01-20 01:12:10,446 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1484845506952_0006Job Transitioned from RUNNING to COMMITTING
+2017-01-20 01:12:10,447 INFO [CommitterEvent Processor #1] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Processing the event EventType: JOB_COMMIT
+2017-01-20 01:12:10,481 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Calling handler for JobFinishedEvent 
+2017-01-20 01:12:10,482 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1484845506952_0006Job Transitioned from COMMITTING to SUCCEEDED
+2017-01-20 01:12:10,483 INFO [Thread-69] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: We are finishing cleanly so this is the last retry
+2017-01-20 01:12:10,483 INFO [Thread-69] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Notify RMCommunicator isAMLastRetry: true
+2017-01-20 01:12:10,483 INFO [Thread-69] org.apache.hadoop.mapreduce.v2.app.rm.RMCommunicator: RMCommunicator notified that shouldUnregistered is: true
+2017-01-20 01:12:10,483 INFO [Thread-69] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Notify JHEH isAMLastRetry: true
+2017-01-20 01:12:10,483 INFO [Thread-69] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: JobHistoryEventHandler notified that forceJobCompletion is true
+2017-01-20 01:12:10,483 INFO [Thread-69] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Calling stop for all the services
+2017-01-20 01:12:10,484 INFO [Thread-69] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Stopping JobHistoryEventHandler. Size of the outstanding queue size is 0
+2017-01-20 01:12:10,546 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Copying hdfs://localhost:9000/tmp/hadoop-yarn/staging/lybuestc/.staging/job_1484845506952_0006/job_1484845506952_0006_1.jhist to hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006-1484845922297-lybuestc-word+count-1484845930480-1-1-SUCCEEDED-default-1484845928407.jhist_tmp
+2017-01-20 01:12:10,582 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Copied to done location: hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006-1484845922297-lybuestc-word+count-1484845930480-1-1-SUCCEEDED-default-1484845928407.jhist_tmp
+2017-01-20 01:12:10,585 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Copying hdfs://localhost:9000/tmp/hadoop-yarn/staging/lybuestc/.staging/job_1484845506952_0006/job_1484845506952_0006_1_conf.xml to hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006_conf.xml_tmp
+2017-01-20 01:12:10,622 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Copied to done location: hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006_conf.xml_tmp
+2017-01-20 01:12:10,628 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Moved tmp to done: hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006.summary_tmp to hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006.summary
+2017-01-20 01:12:10,630 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Moved tmp to done: hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006_conf.xml_tmp to hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006_conf.xml
+2017-01-20 01:12:10,632 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Moved tmp to done: hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006-1484845922297-lybuestc-word+count-1484845930480-1-1-SUCCEEDED-default-1484845928407.jhist_tmp to hdfs://localhost:9000/tmp/hadoop-yarn/staging/history/done_intermediate/lybuestc/job_1484845506952_0006-1484845922297-lybuestc-word+count-1484845930480-1-1-SUCCEEDED-default-1484845928407.jhist
+2017-01-20 01:12:10,633 INFO [Thread-69] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Stopped JobHistoryEventHandler. super.stop()
+2017-01-20 01:12:10,633 ERROR [uber-EventHandler] org.apache.hadoop.mapred.LocalContainerLauncher: Returning, interrupted : java.lang.InterruptedException
+2017-01-20 01:12:10,635 INFO [Thread-69] org.apache.hadoop.mapreduce.v2.app.rm.RMCommunicator: Setting job diagnostics to 
+2017-01-20 01:12:10,663 INFO [Thread-69] org.apache.hadoop.mapreduce.v2.app.rm.RMCommunicator: History url is http://192.168.0.100:19888/jobhistory/job/job_1484845506952_0006
+2017-01-20 01:12:10,669 INFO [Thread-69] org.apache.hadoop.mapreduce.v2.app.rm.RMCommunicator: Waiting for application to be successfully unregistered.
+2017-01-20 01:12:11,675 INFO [Thread-69] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Deleting staging directory hdfs://localhost:9000 /tmp/hadoop-yarn/staging/lybuestc/.staging/job_1484845506952_0006
+2017-01-20 01:12:11,678 INFO [Thread-69] org.apache.hadoop.ipc.Server: Stopping server on 64921
+2017-01-20 01:12:11,685 INFO [IPC Server listener on 64921] org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 64921
+2017-01-20 01:12:11,685 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2017-01-20 01:12:11,685 INFO [TaskHeartbeatHandler PingChecker] org.apache.hadoop.mapreduce.v2.app.TaskHeartbeatHandler: TaskHeartbeatHandler thread interrupted

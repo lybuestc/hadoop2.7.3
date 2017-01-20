@@ -1,0 +1,1 @@
+ljobId=job_1484710253544_0015,submitTime=1484719905855,launchTime=1484719912197,firstMapTaskLaunchTime=1484719914446,firstReduceTaskLaunchTime=1484719921321,finishTime=1484719924409,resourcesPerMap=1024,resourcesPerReduce=1024,numMaps=2,numReduces=1,user=lybuestc,queue=default,status=SUCCEEDED,mapSlotSeconds=8,reduceSlotSeconds=3,jobName=word count mapreduce demo

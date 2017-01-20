@@ -1,0 +1,1 @@
+]jobId=job_1484710253544_0001,submitTime=1484710503364,launchTime=1484710511658,firstMapTaskLaunchTime=1484710513926,firstReduceTaskLaunchTime=1484710519792,finishTime=1484710522751,resourcesPerMap=1024,resourcesPerReduce=1024,numMaps=1,numReduces=1,user=lybuestc,queue=default,status=SUCCEEDED,mapSlotSeconds=3,reduceSlotSeconds=2,jobName=word count
